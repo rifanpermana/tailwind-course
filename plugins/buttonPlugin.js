@@ -6,7 +6,7 @@ const buttonPlugin = plugin(function ({
   matchComponents,
   theme,
 }) {
-  console.log(theme("spacing")["0.5"]);
+  // console.log(theme("spacing")["0.5"]);
   addComponents({
     ".btn": {
       display: "inline-block",
@@ -17,7 +17,7 @@ const buttonPlugin = plugin(function ({
     },
   });
 
-  console.log(theme("colors"));
+  // console.log(theme("colors"));
   for (let key in theme("colors")) {
     if (typeof theme("colors")[key] !== "string") {
       for (let shade in theme("colors")[key]) {

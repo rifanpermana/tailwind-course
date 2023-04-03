@@ -20,10 +20,10 @@ module.exports = {
     },
   },
   plugins: [
-    require("./plugins/openVariant"),
+    require("./plugins/openVariant.js"),
     require("./plugins/animationDelay"),
     require("./plugins/tableCaption"),
     require("./plugins/buttonPlugin"),
-    require("./plugins/outlineSolid"),
+    require("./plugins/outlineSolid")
   ],
 };
